@@ -15,5 +15,6 @@ class Food extends AnimalProduct{
     public function showInfo(){
         return "data di scandenza:{$this->expire_date}";
     }
+    
 }
 
